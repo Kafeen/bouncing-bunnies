@@ -1,6 +1,7 @@
-import Vue from "vue";
+import Vue from 'vue';
+import App from './App.vue';
 
-let v: Vue = new Vue({
-    el: "#app",
-    template: `<div></div>`
-});
+new Vue({
+  el: '#app',
+  render: h => h(App)
+})
